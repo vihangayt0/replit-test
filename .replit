@@ -1,1 +1,1 @@
-run = "npm i && node index.js --server"
+run = "pm2 start index.js --deep-monitoring --attach --name astro"
